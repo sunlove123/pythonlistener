@@ -1,6 +1,6 @@
 #!/bin/bash
-oldip='54\.255\.239\.139'
-newip='52\.221\.230\.29'
+oldip='0\.0\.0\.0'
+newip='0\.0\.0\.0'
 cd /home/ubuntu/kube_yaml
 sed -i -e 's/'$oldip'/'$newip'/g' *
 cd /home/ubuntu/yaml
